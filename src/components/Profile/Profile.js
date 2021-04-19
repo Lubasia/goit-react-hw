@@ -1,34 +1,35 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import PropTypes from 'prop-types';
-import defaultImg from "../components/default.jpg"
+import defaultImg from "../Profile/default.jpg"
+import styles from '../Profile/Profile.module.css';
 
 const Profile = ({name, tag, location, avatar, stats}) => (
-    <div class="profile">
-        <div class="description">
+    <div className={styles.profile}>
+        <div className={styles.description}>
             <img
                 src={avatar}
                 alt="Аватар пользователя"
-                class="avatar"
+                className={styles.avatar}
                 width={150}
             />
-            <p class="name">{name}</p>
-            <p class="tag">@{tag}</p>
-            <p class="location">{location}</p>
+            <p className={styles.name}>{name}</p>
+            <p className={styles.tag}>@{tag}</p>
+            <p className={styles.location}>{location}</p>
         </div>
 
-        <ul class="stats">
+        <ul className={styles.stats}>
             <li>
-                <span class="label">Followers</span>
-                <span class="quantity">{stats.followers}</span>
+                <span className={styles.label}>Followers - </span>
+                <span className={styles.quantity}>{stats.followers}</span>
             </li>
             <li>
-                <span class="label">Views</span>
-                <span class="quantity">{stats.views}</span>
+                <span className={styles.label}>Views - </span>
+                <span className={styles.quantity}>{stats.views}</span>
             </li>
             <li>
-                <span class="label">Likes</span>
-                <span class="quantity">{stats.likes}</span>
+                <span className={styles.label}>Likes - </span>
+                <span className={styles.quantity}>{stats.likes}</span>
             </li>
         </ul>
     </div>
