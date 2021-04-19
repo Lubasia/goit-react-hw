@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Lubasia/goit-react-hw-01-components/static/css/main.c2ec836c.chunk.css",
+    "main.js": "/Lubasia/goit-react-hw-01-components/static/js/main.10dbd97b.chunk.js",
+    "main.js.map": "/Lubasia/goit-react-hw-01-components/static/js/main.10dbd97b.chunk.js.map",
+    "runtime-main.js": "/Lubasia/goit-react-hw-01-components/static/js/runtime-main.f900c562.js",
+    "runtime-main.js.map": "/Lubasia/goit-react-hw-01-components/static/js/runtime-main.f900c562.js.map",
+    "static/css/2.de71bbd8.chunk.css": "/Lubasia/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css",
+    "static/js/2.9ac3bed1.chunk.js": "/Lubasia/goit-react-hw-01-components/static/js/2.9ac3bed1.chunk.js",
+    "static/js/2.9ac3bed1.chunk.js.map": "/Lubasia/goit-react-hw-01-components/static/js/2.9ac3bed1.chunk.js.map",
+    "index.html": "/Lubasia/goit-react-hw-01-components/index.html",
+    "static/css/2.de71bbd8.chunk.css.map": "/Lubasia/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css.map",
+    "static/css/main.c2ec836c.chunk.css.map": "/Lubasia/goit-react-hw-01-components/static/css/main.c2ec836c.chunk.css.map",
+    "static/js/2.9ac3bed1.chunk.js.LICENSE.txt": "/Lubasia/goit-react-hw-01-components/static/js/2.9ac3bed1.chunk.js.LICENSE.txt",
+    "static/media/default.ec05a4a0.jpg": "/Lubasia/goit-react-hw-01-components/static/media/default.ec05a4a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f900c562.js",
+    "static/css/2.de71bbd8.chunk.css",
+    "static/js/2.9ac3bed1.chunk.js",
+    "static/css/main.c2ec836c.chunk.css",
+    "static/js/main.10dbd97b.chunk.js"
+  ]
+}
